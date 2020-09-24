@@ -3,9 +3,9 @@
 	color: white;
 	margin-right: -100px;
 	background-image: url("./images/clement.jpg");
-	background-size: contain;
+	background-size: cover;
   background-repeat: no-repeat;
-	margin-bottom: 100px;
+	/*vertical-align: bottom;*/
 
 }
 
@@ -47,24 +47,16 @@
  padding-top: 20px;
 }
 
-
-
 #main12 {
-width: 25%;
-margin-left: 2%;
-text-align: center;
-margin-top: 50px;
-height: 250px;
-background-color:rgba(0, 77, 26, 0.4);
-border-radius: 40px;
-}
-
-#main12 p:nth-last-of-type(1){
-	font-size: 17px;
-}
-
-#main12 p:nth-last-of-type(3){
-	font-size: 17px;
+	width: 400px;
+	border-style: none;
+	border: none;
+	margin-right: 20px;
+	margin-left: 5%;
+	font-size: 18px;
+	text-align: left;
+	height: 250px;
+	border-radius: 40px;
 }
 
 #mainList {
@@ -84,6 +76,7 @@ border-radius: 40px;
 body{
 margin: 0px;
 padding-right: 100px;
+background-color: AliceBlue;
 }
 
 #item2 {
@@ -154,19 +147,6 @@ padding-right: 100px;
     color: white;
 }
 
-#workExperience {
-	height: 1050px;
-	background: white;
-	margin-right: -100px;
-	margin-top: -300px;
-}
-
-
-#padd {
-	height: 100px;
-	margin-right: -100px;
-}
-
 #aa{
 	padding-top: 40px;
 	text-align: center;
@@ -185,162 +165,39 @@ padding-right: 100px;
 
 }
 
-#we1 a:nth-of-type(1) {
-	background-image: url("./images/Capture.JPG");
-	background-size: cover;
-	height: 100px;
-	width: 200px;
-	border: 3px solid grey;
-	border-radius: 5px;
-}
-
-#we1 div:nth-of-type(1){
-	width: 55%;
-	margin-top: -15px;
-}
-#we2 div:nth-of-type(1){
-	width: 55%;
-	margin-top: -15px;
-}
-#we3 div:nth-of-type(1){
-	width: 55%;
-	margin-top: -15px;
-}
-#we4 div:nth-of-type(1){
-	width: 55%;
-	margin-top: -15px;
-}
-#we5 div:nth-of-type(1){
-	width: 55%;
-	margin-top: -15px;
-}
-
-#we1 div p:nth-of-type(1){
-	font-weight: bold;
-}
-
-#we2 div p:nth-of-type(1){
-	font-weight: bold;
-}
-#we3 div p:nth-of-type(1){
-	font-weight: bold;
-}
-
-#we4 div p:nth-of-type(1){
-	font-weight: bold;
-}
-
-#we5 div p:nth-of-type(1){
-	font-weight: bold;
-}
-
-#we2 {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 40px;
-	font-family: 'Vollkorn', serif;
-  width: 60%;
-	margin-left: 10%;
-
-}
-
-#we2 a:nth-of-type(1) {
-	background-image: url("./images/kpmg.JPG");
-	background-size: cover;
-	height: 100px;
-	width: 200px;
-	border: 3px solid grey;
-	border-radius: 5px;
-
-}
-
-#we3 {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 40px;
-	font-family: 'Vollkorn', serif;
-  width: 60%;
-	margin-left: 10%;
-
-}
-
-#we3 a:nth-of-type(1) {
-	background-image: url("./images/agua.png");
-	background-size: cover;
-	height: 100px;
-	width: 200px;
-	border: 3px solid grey;
-	border-radius: 5px;
-
-}
-
-#we4 {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 40px;
-	font-family: 'Vollkorn', serif;
-  width: 60%;
-	margin-left: 10%;
-
-}
-
-#we4 a:nth-of-type(1) {
-	background-image: url("./images/tea.JPG");
-	background-size: cover;
-	height: 100px;
-	width: 200px;
-	border: 3px solid grey;
-	border-radius: 5px;
-}
-
-#we5 {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 40px;
-	font-family: 'Vollkorn', serif;
-  width: 60%;
-	margin-left: 10%;
-
-}
-
-#we5 a:nth-of-type(1) {
-	background-image: url("./images/dee.JPG");
-	background-size: cover;
-	height: 100px;
-	width: 200px;
-	border: 3px solid grey;
-	border-radius: 5px;
-}
-
 #Projects {
-	height: 2300px;
-	background-color: 	 #e6e6e6;
 	margin-right: -100px;
+	padding-left: 10%;
+	height: 1000px;
+	background-color: 	 AliceBlue;
 	font-family: 'Merriweather', serif;
   font-size: 90%;
 }
 
 #bb {
 	padding-top: 40px;
+	padding-bottom: 50px;
 	text-align: center;
-	font-size: 26px;
-	width: 90%;
-	padding-left: 20px;
+	font-size: 30px;
+	font-style: italic;
+	margin-left: -10%;
+}
+
+#paragraph {
+	text-align: right;
 }
 
 #p1 {
-width: 70%;
-margin-left: 8%;
 display: flex;
-justify-content: space-around;
+justify-content: center;
 flex-direction: row;
-background-color: 	rgb(192,192,192);
-
+width: 100%;
+text-align: right;
 }
 
 #para1 {
 width: 45%;
-text-align: left;
+text-align: right;
 padding-left: -100px;
 
 }
@@ -353,31 +210,6 @@ padding-left: -100px;
   background-repeat: no-repeat;
 	margin-left: -30px;
 	margin-top: 20px;
-}
-
-#p2 {
-width: 70%;
-margin-left: 8%;
-text-align: left;
-background-color: 	rgb(192,192,192);
-
-
-}
-
-#p3 {
-width: 70%;
-margin-left: 8%;
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-background-color: 	rgb(192,192,192);
-
-}
-
-#para3 {
-width: 45%;
-text-align: left;
-padding-left: -100px;
 }
 
 #imageP3 {
@@ -459,12 +291,6 @@ padding-left: -100px;
 
 }
 
-.maincomp {
-
-	border: 2px;
-	border-radius: 4px;
-}
-
 .moredetail {
 	padding-top: 30px;
 	text-align: center;
@@ -473,20 +299,18 @@ padding-left: -100px;
 
 }
 
-.outerdiv {
-padding:5px;
-}
-
-
 #Activities {
-	height: 750px;
+	height: 1000px;
+	font-style: italic;
+	font-size: 20px;
 }
 
 .mySlides {
-	width: 400px;
-	height: 300px;
+	width: 800px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 15px 50px 30px;
 }
 
 #slide {
@@ -512,30 +336,37 @@ padding:5px;
 
 @media only screen and (max-width: 1200px) {
 
+
+	#p1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 80%;
+	margin-left: 5%;
+	}
+
 	#intro {
 		margin-top: 60px;
 		height: 640px;
 		margin-bottom: 0px;
-		display: flex;
-		justify-content: space-between;
 	}
-
 
 
 	#navbar {
 		display: flex;
 		justify-content: center;
+		width: 100vw;
 	}
 
 	.nav-bar {
-	height: 60px;
-	margin-left: 50px;
-	padding-left:10%;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-	background-color: black;
-	font-size: 20px;
+		display: flex;
+		justify-content: center;
+		width: 100vw;
+		height: 60px;
+	  overflow: hidden;
+	  position: fixed;
+		background-color: black;
+		font-size: 20px;
 }
 
 .nav-bar a {
@@ -570,29 +401,6 @@ display: none;
 }
 
 
-	#workExperience {
-		height: 1050px;
-		background: white;
-		margin-right: -100px;
-	}
-
-
-#main12 {
-	width: 35%;
-	border-style: none;
-	background-color: inherit;
-	border: none;
-	border-radius: 0px;
-	margin-right: 20px;
-}
-
-#main12 p:nth-of-type(1) {
-	font-size: 15px;
-}
-
-#main12 p:nth-of-type(2) {
-display: none;
-}
 
 	#padd {
 		height: 100px;
@@ -607,232 +415,6 @@ display: none;
   }
 
 
-	#we1 {
-		display: flex;
-		justify-content: space-around;
-		padding-top: 50px;
-		font-family: 'Vollkorn', serif;
-		width: 75%;
-		margin-left: 10%;
-
-	}
-
-	#we1 a:nth-of-type(1) {
-		background-image: url("./images/Capture.JPG");
-		background-size: cover;
-		height: 100px;
-		width: 200px;
-		border: 3px solid grey;
-		border-radius: 5px;
-	}
-
-	#we1 div:nth-of-type(1){
-		width: 55%;
-		margin-top: -15px;
-	}
-	#we2 div:nth-of-type(1){
-		width: 55%;
-		margin-top: -15px;
-	}
-	#we3 div:nth-of-type(1){
-		width: 55%;
-		margin-top: -15px;
-	}
-	#we4 div:nth-of-type(1){
-		width: 55%;
-		margin-top: -15px;
-	}
-	#we5 div:nth-of-type(1){
-		width: 55%;
-		margin-top: -15px;
-	}
-
-	#we1 div p:nth-of-type(1){
-		font-weight: bold;
-	}
-
-	#we2 div p:nth-of-type(1){
-		font-weight: bold;
-	}
-	#we3 div p:nth-of-type(1){
-		font-weight: bold;
-	}
-
-	#we4 div p:nth-of-type(1){
-		font-weight: bold;
-	}
-
-	#we5 div p:nth-of-type(1){
-		font-weight: bold;
-	}
-
-	#we2 {
-		display: flex;
-		justify-content: space-around;
-		padding-top: 40px;
-		font-family: 'Vollkorn', serif;
-	  width: 75%;
-		margin-left: 10%;
-
-	}
-
-	#we2 a:nth-of-type(1) {
-		background-image: url("./images/kpmg.JPG");
-		background-size: cover;
-		height: 100px;
-		width: 200px;
-		border: 3px solid grey;
-		border-radius: 5px;
-
-	}
-
-	#we3 {
-		display: flex;
-		justify-content: space-around;
-		padding-top: 40px;
-		font-family: 'Vollkorn', serif;
-	  width: 75%;
-		margin-left: 10%;
-
-	}
-
-	#we3 a:nth-of-type(1) {
-		background-image: url("./images/agua.png");
-		background-size: cover;
-		height: 100px;
-		width: 200px;
-		border: 3px solid grey;
-		border-radius: 5px;
-
-	}
-
-	#we4 {
-		display: flex;
-		justify-content: space-around;
-		padding-top: 40px;
-		font-family: 'Vollkorn', serif;
-	  width: 75%;
-		margin-left: 10%;
-
-	}
-
-	#we4 a:nth-of-type(1) {
-		background-image: url("./images/tea.JPG");
-		background-size: cover;
-		height: 100px;
-		width: 200px;
-		border: 3px solid grey;
-		border-radius: 5px;
-	}
-
-	#we5 {
-		display: flex;
-		justify-content: space-around;
-		padding-top: 40px;
-		font-family: 'Vollkorn', serif;
-	  width: 75%;
-		margin-left: 10%;
-
-	}
-
-	#we5 a:nth-of-type(1) {
-		background-image: url("./images/dee.JPG");
-		background-size: cover;
-		height: 100px;
-		width: 200px;
-		border: 3px solid grey;
-		border-radius: 5px;
-	}
-
-	#Projects {
-		margin-right: -100px;
-		height: 1900px;
-	}
-
-	#bb {
-		width: 100%;
-	}
-
-	#p1 {
-	width: 80%;
-	margin-left: 10%;
-	}
-
-	#para1 {
-	width: 45%;
-	font-size: 85%;
-	}
-
-	#imageP1 {
-		margin-left: 7px;
-		width: 330px;
-		height: 220px;
-		margin-right: 7px;
-
-	}
-
-	#p2 {
-	width: 80%;
-	margin-left: 10%;
-	font-size: 85%;
-	}
-
-	#p3 {
-	width: 80%;
-	margin-left: 10%;
-	}
-
-	#para3 {
-	width: 45%;
-	font-size: 85%;
-	}
-
-	#imageP3 {
-		margin-left: 7px;
-		width: 330px;
-		height: 220px;
-		margin-right: 7px;
-	}
-
-	#p4 {
-	width: 80%;
-	margin-left: 10%;
-	font-size: 85%;
-	}
-
-
-
-		#p5 {
-		width: 80%;
-		margin-left: 10%;
-		padding-bottom: 15px;
-		}
-
-		#para5 {
-		width: 45%;
-		font-size: 85%;
-		}
-
-		#imageP5 {
-			margin-left: 7px;
-			width: 330px;
-			height: 220px;
-			margin-right: 7px;
-		}
-
-
-
-			#p6 {
-			width: 80%;
-			margin-left: 10%;
-			padding-bottom: 15px;
-			}
-
-			#para6 {
-			width: 45%;
-			font-size: 85%;
-			}
-
 			#imageP6 {
 				margin-left: 7px;
 				width: 330px;
@@ -846,12 +428,6 @@ display: none;
 
 	}
 
-	.maincomp {
-
-		border: 2px;
-		border-radius: 4px;
-	}
-
 	.moredetail {
 		padding-top: 0px;
 		text-align: center;
@@ -859,11 +435,6 @@ display: none;
 		font-weight: bold;
 
 	}
-
-	.outerdiv {
-	padding:5px;
-	}
-
 
 	#Activities {
 		height: 750px;
@@ -884,7 +455,8 @@ display: none;
 	}
 
 	#cc {
-		font-size: 20px;
+		font-size: 23px;
+		font-style: italic;
 		text-align: center;
 		padding-top: 70px;
 		padding-left: 100px;
